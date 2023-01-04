@@ -13,58 +13,22 @@ var thumb = await(await fetch(wibu)).buffer()
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
     else who = m.sender
     var user = global.db.data.users[who]
-var tqto = `*▸ - - - —「 BIG THANKS TO 」— - - - ◂*
-*❉ Adiwajshing:*
-https://github.com/adiwajshing
-*❉ Nurutomo:*
-https://github.com/Nurutomo
-*❉ Istikmal:* 
-https://github.com/BochilGaming
-*❉ Ariffb:*
-https://github.com/Ariffb25
-*❉ Ilman:*
-https://github.com/ilmanhdyt
-*❉ Amirul:*
-https://github.com/amiruldev20
-*❉ Rasel:*
-https://github.com/raselcomel
-*❉ Fatur:*
-https://github.com/Ftwrr
-*❉ Rominaru:*
-https://github.com/Rominaru
-*❉ Letta:*
-https://github.com/HirooSy
-*❉ The.sad.boy01:*
-https://github.com/kangsad01
-*❉ Ameliascrf:*
-https://github.com/Ameliascrf
-*❉ Fokus ID:*
-https://github.com/Fokusdotid
-*❉ Johannes:*
-https://github.com/Johannes2803
-*❉ BrunoSobrino:*
-https://github.com/BrunoSobrino
-*❉ Krisna:*
-https://github.com/NevtBotz
-*❉ LitRHap:*
-https://github.com/LitRHap
-*❉ Rlxfly:*
-https://github.com/Rlxfly
-*❉ Aine:*
-https://github.com/Aiinne
-*▸ - - - —「 KANG RECODE 」— - - - ◂*
-*❉ Fahri:*
-https://github.com/FahriAdison
-*▸ - - - —「 SPESIAL HELPER 」— - - - ◂*
-*❉ Letta:*
-*❉ Johannes:*
-*❉ Krisna:*
-*❉ Rlxfly:*
+var tqto = `*▸ - - - —「 BIG THANKS TO My Team 」— - - - ◂*
+*❉ Nizar:*
+https://instaram.com/nizarrrahman.f_
+*❉ Adryan:*
+https://www.instagram.com/adrynngrha
+*❉ Irham:* 
+https://yuki_sen23
+*❉ Rafie:*
+https://www.instagram.com/rafiedotid
+*❉ Nai Developer:*
+https://instagram.com/nai_developer
 `
 conn.sendButtonDoc(m.chat, tqto, wm, 'Menu', '/menu', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
-        mediaUrl: "https://Instagram.com/bot_whangsaf",
+        mediaUrl: "https://Instagram.com/nizarrrahman.f_",
         mediaType: "VIDEO",
-        description: "https://Instagram.com/bot_whangsaf", 
+        description: "https://Instagram.com/nizarrrahman.f_", 
         title: 'Simple Bot Esm',
         body: wm,
         thumbnail: thumb,
