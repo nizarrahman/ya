@@ -41,7 +41,7 @@ var handler = async (m, {
 			})
 		} else {
 			db.data.users[user].pasangan = ""
-			conn.reply(m.chat, `Anda baru saja menolak @${user.split('@')[0]} untuk menjadi pasangan anda!`, m, {
+			conn.reply(m.chat, `Anda baru saja menolak @${user.split('@')[0]} untuk menjadi pasangan anda!, Awakaowaokw Di Tolak Mampus :v`, m, {
 				mentions: [user]
 			})
 		}
